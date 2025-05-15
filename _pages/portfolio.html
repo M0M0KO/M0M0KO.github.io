@@ -1,0 +1,22 @@
+---
+layout: archive
+title: "Portfolio"
+permalink: /portfolio/
+author_profile: true
+---
+
+{% include base_path %}
+
+<div style="text-align: center; margin: 3em 0; padding: 2em; border: 1px solid var(--global-border-color); border-radius: 5px; background-color: var(--global-bg-color);">
+  <h2 style="color: var(--global-text-color);"><i class="fas fa-project-diagram" style="margin-right: 0.5em; color: var(--global-theme-color);"></i>Content Coming Soon</h2>
+  <p>My portfolio section is currently under development.</p>
+  <p>I'm working on showcasing my projects, research implementations, and other works.</p>
+  <p>Please check back later for updates!</p>
+</div>
+
+{% comment %}
+{% for post in site.portfolio %}
+  {% include archive-single.html %}
+{% endfor %}
+{% endcomment %}
+

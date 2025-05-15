@@ -1,0 +1,235 @@
+{% include base_path %}
+
+{% if post.header.teaser %}
+  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
+{% else %}
+  {% assign teaser = site.teaser %}
+{% endif %}
+
+{% if post.id %}
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign title = post.title %}
+{% endif %}
+
+<div class="{{ include.type | default: "list" }}__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    <div class="publication-container" style="display: flex; flex-wrap: wrap; margin-bottom: 1em;">
+      <!-- Publication Image/Teaser -->
+      <div class="publication-image" style="flex: 0 0 100px; margin-right: 1em; margin-bottom: 1em;">
+        {% if post.header.teaser %}
+          <img src=
+            {% if teaser contains "://" %}
+              "{{ teaser }}"
+            {% else %}
+              "{{ teaser | prepend: "/images/" | prepend: base_path }}"
+            {% endif %}
+            alt="" style="width: 100px; height: auto; border-radius: 4px; border: 1px solid #eee;">
+        {% else %}
+          <div style="width: 100px; height: 100px; background-color: #f5f5f5; border-radius: 4px; display: flex; justify-content: center; align-items: center; border: 1px solid #eee;">
+            <i class="fas fa-file-alt" style="font-size: 2em; color: #ddd;"></i>
+          </div>
+        {% endif %}
+      </div>
+      
+      <!-- Publication Content -->
+      <div class="publication-content" style="flex: 1; min-width: 0;">
+        <h2 class="archive__item-title" itemprop="headline" style="margin-top: 0;">
+          {% if post.link %}
+            <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+          {% else %}
+            <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
+          {% endif %}
+        </h2>
+        
+        <!-- Publication Meta -->
+        <div class="publication-meta" style="margin-bottom: 0.5em;">
+          {% if post.collection == 'publications' %}
+            <p style="margin-bottom: 0.5em;">
+              {% assign date_format = "%B %d, %Y" %}
+              <i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ post.date | date: date_format }}
+              {% if post.venue %}
+                 | <i class="fa fa-fw fa-book" aria-hidden="true"></i> <span class="venue">{{ post.venue }}</span>
+              {% endif %}
+              
+              {% if post.topic %}
+                <span class="topic-tag" style="display: inline-block; background-color: #eef5fd; border: 1px solid #dae8f7; padding: 1px 8px; border-radius: 3px; font-size: 0.8em; margin-left: 8px;">{{ post.topic }}</span>
+              {% endif %}
+            </p>
+          {% endif %}
+        </div>
+        
+        <!-- Publication Excerpt -->
+        {% if post.excerpt and site.read_more != 'enabled' %}
+          <div class="archive__item-excerpt" itemprop="description" style="margin-bottom: 0.5em;">
+            {{ post.excerpt | markdownify }}
+          </div>
+        {% elsif post.excerpt and site.read_more == 'enabled' %}
+          <div class="archive__item-excerpt" itemprop="description" style="margin-bottom: 0.5em;">
+            {{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong>
+          </div>
+        {% endif %}
+        
+        <!-- Publication Links -->
+        <div class="publication-links" style="margin-top: 0.5em;">
+          {% if post.citation or post.bibtex %}
+            <div class="citation-block" style="margin-bottom: 0.5em;">
+              <details>
+                <summary style="cursor: pointer; color: #0366d6; font-size: 0.9em; font-weight: 500; padding: 8px; background-color: #f0f7ff; border-radius: 4px; display: inline-block; margin-bottom: 5px; transition: all 0.2s ease;">
+                  <i class="fas fa-quote-left" aria-hidden="true"></i> Show citation
+                </summary>
+                <div style="margin-top: 0.5em; font-size: 0.9em;">
+                  <!-- Citation Tabs -->
+                  <div class="citation-tabs" style="display: flex; border-bottom: 1px solid #ddd; margin-bottom: 10px;">
+                    <div class="tab active" data-tab="ama" style="padding: 8px 15px; cursor: pointer; border: 1px solid #ddd; border-bottom: none; border-radius: 4px 4px 0 0; margin-right: 5px; background-color: #f8f9fa; transition: all 0.2s ease; font-weight: 500;">AMA</div>
+                    <div class="tab" data-tab="apa" style="padding: 8px 15px; cursor: pointer; border: 1px solid #ddd; border-bottom: none; border-radius: 4px 4px 0 0; margin-right: 5px; transition: all 0.2s ease; font-weight: 500;">APA</div>
+                    {% if post.bibtex %}
+                    <div class="tab" data-tab="bibtex" style="padding: 8px 15px; cursor: pointer; border: 1px solid #ddd; border-bottom: none; border-radius: 4px 4px 0 0; transition: all 0.2s ease; font-weight: 500;">BibTeX</div>
+                    {% endif %}
+                  </div>
+                  
+                  <!-- Citation Contents -->
+                  <div class="tab-content" id="ama-content" style="padding: 0.5em; background-color: #f8f9fa; border-radius: 0 4px 4px 4px;">
+                    {{ post.citation }}
+                  </div>
+                  <div class="tab-content" id="apa-content" style="display: none; padding: 0.5em; background-color: #f8f9fa; border-radius: 0 4px 4px 4px;">
+                    {{ post.citation_apa }}
+                  </div>
+                  {% if post.bibtex %}
+                  <div class="tab-content" id="bibtex-content" style="display: none; padding: 0.5em; background-color: #f8f9fa; border-radius: 0 4px 4px 4px;">
+                    <pre class="bibtex-content" style="white-space: pre-wrap; font-family: 'Courier New', Courier, monospace; margin: 0; font-size: 0.9em; background: transparent; border: none; line-height: 1.5; overflow-x: auto;">{{ post.bibtex }}</pre>
+                  </div>
+                  {% endif %}
+                </div>
+              </details>
+            </div>
+          {% endif %}
+          
+          <div class="download-links" style="margin-top: 0.5em;">
+            {% if post.paperurl and post.paperurl != '' %}
+              <a href="{{ post.paperurl }}" class="btn-pub" style="display: inline-block; padding: 4px 10px; background-color: #e8f0fe; border: 1px solid #d0e3ff; border-radius: 3px; font-size: 0.85em; margin-right: 0.5em; text-decoration: none; color: #0366d6; font-weight: 500; transition: all 0.2s ease;">
+                <i class="fas fa-file-pdf" aria-hidden="true"></i> Paper
+              </a>
+            {% endif %}
+            
+            {% if post.preprinturl and post.preprinturl != '' %}
+              <a href="{{ post.preprinturl }}" class="btn-pub" style="display: inline-block; padding: 4px 10px; background-color: #e8f0fe; border: 1px solid #d0e3ff; border-radius: 3px; font-size: 0.85em; margin-right: 0.5em; text-decoration: none; color: #0366d6; font-weight: 500; transition: all 0.2s ease;">
+                <i class="fas fa-file-alt" aria-hidden="true"></i> Preprint
+              </a>
+            {% endif %}
+            
+            {% if post.slidesurl and post.slidesurl != '' %}
+              <a href="{{ post.slidesurl }}" class="btn-pub" style="display: inline-block; padding: 4px 10px; background-color: #e8f0fe; border: 1px solid #d0e3ff; border-radius: 3px; font-size: 0.85em; margin-right: 0.5em; text-decoration: none; color: #0366d6; font-weight: 500; transition: all 0.2s ease;">
+                <i class="fas fa-desktop" aria-hidden="true"></i> Slides
+              </a>
+            {% endif %}
+            
+            {% if post.codeurl and post.codeurl != '' %}
+              <a href="{{ post.codeurl }}" class="btn-pub" style="display: inline-block; padding: 4px 10px; background-color: #e8f0fe; border: 1px solid #d0e3ff; border-radius: 3px; font-size: 0.85em; margin-right: 0.5em; text-decoration: none; color: #0366d6; font-weight: 500; transition: all 0.2s ease;">
+                <i class="fas fa-code" aria-hidden="true"></i> Code
+              </a>
+            {% endif %}
+            
+            {% if post.dataseturl and post.dataseturl != '' %}
+              <a href="{{ post.dataseturl }}" class="btn-pub" style="display: inline-block; padding: 4px 10px; background-color: #e8f0fe; border: 1px solid #d0e3ff; border-radius: 3px; font-size: 0.85em; margin-right: 0.5em; text-decoration: none; color: #0366d6; font-weight: 500; transition: all 0.2s ease;">
+                <i class="fas fa-database" aria-hidden="true"></i> Dataset
+              </a>
+            {% endif %}
+            
+            {% if post.demourl and post.demourl != '' %}
+              <a href="{{ post.demourl }}" class="btn-pub" style="display: inline-block; padding: 4px 10px; background-color: #e8f0fe; border: 1px solid #d0e3ff; border-radius: 3px; font-size: 0.85em; margin-right: 0.5em; text-decoration: none; color: #0366d6; font-weight: 500; transition: all 0.2s ease;">
+                <i class="fas fa-play-circle" aria-hidden="true"></i> Demo
+              </a>
+            {% endif %}
+            
+            {% if post.videourl and post.videourl != '' %}
+              <a href="{{ post.videourl }}" class="btn-pub" style="display: inline-block; padding: 4px 10px; background-color: #e8f0fe; border: 1px solid #d0e3ff; border-radius: 3px; font-size: 0.85em; margin-right: 0.5em; text-decoration: none; color: #0366d6; font-weight: 500; transition: all 0.2s ease;">
+                <i class="fas fa-video" aria-hidden="true"></i> Video
+              </a>
+            {% endif %}
+            
+            {% if post.projecturl and post.projecturl != '' %}
+              <a href="{{ post.projecturl }}" class="btn-pub" style="display: inline-block; padding: 4px 10px; background-color: #e8f0fe; border: 1px solid #d0e3ff; border-radius: 3px; font-size: 0.85em; margin-right: 0.5em; text-decoration: none; color: #0366d6; font-weight: 500; transition: all 0.2s ease;">
+                <i class="fas fa-globe" aria-hidden="true"></i> Project
+              </a>
+            {% endif %}
+            
+            {% if post.doi and post.doi != '' %}
+              <a href="https://doi.org/{{ post.doi }}" class="btn-pub" style="display: inline-block; padding: 4px 10px; background-color: #e8f0fe; border: 1px solid #d0e3ff; border-radius: 3px; font-size: 0.85em; margin-right: 0.5em; text-decoration: none; color: #0366d6; font-weight: 500; transition: all 0.2s ease;">
+                <i class="fas fa-external-link-alt" aria-hidden="true"></i> DOI
+              </a>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </article>
+</div>
+
+<style>
+  .btn-pub:hover {
+    background-color: #c5d9f8 !important;
+    border-color: #a8c6f2 !important;
+    color: #0550ae !important;
+  }
+  
+  .citation-tabs .tab {
+    opacity: 0.7;
+  }
+  
+  .citation-tabs .tab.active {
+    opacity: 1;
+    background-color: #f8f9fa;
+    border-bottom-color: #f8f9fa;
+  }
+  
+  .bibtex-content {
+    white-space: pre-wrap !important;
+    tab-size: 2;
+    -moz-tab-size: 2;
+    display: block;
+    unicode-bidi: embed;
+    font-family: 'Courier New', Courier, monospace !important;
+    line-height: 1.5 !important;
+  }
+</style>
+
+<script>
+// 立即执行函数，确保代码无论何时加载都会运行
+(function() {
+  function initCitationTabs() {
+    // 为所有citation-tabs中的tab添加点击事件
+    document.querySelectorAll('.citation-tabs .tab').forEach(function(tab) {
+      tab.addEventListener('click', function() {
+        // 获取当前details元素
+        const details = this.closest('details');
+        
+        // 移除所有tab的active类
+        details.querySelectorAll('.tab').forEach(function(t) {
+          t.classList.remove('active');
+        });
+        
+        // 添加当前tab的active类
+        this.classList.add('active');
+        
+        // 隐藏所有内容
+        details.querySelectorAll('.tab-content').forEach(function(content) {
+          content.style.display = 'none';
+        });
+        
+        // 显示当前tab对应的内容
+        const tabId = this.getAttribute('data-tab');
+        details.querySelector(`#${tabId}-content`).style.display = 'block';
+      });
+    });
+  }
+
+  // 在DOM完全加载后执行初始化
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initCitationTabs);
+  } else {
+    // 如果DOM已经加载完毕，直接执行
+    initCitationTabs();
+  }
+})();
+</script>

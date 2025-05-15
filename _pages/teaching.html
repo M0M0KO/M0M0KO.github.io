@@ -1,0 +1,21 @@
+---
+layout: archive
+title: "Teaching"
+permalink: /teaching/
+author_profile: true
+---
+
+<div style="text-align: center; margin: 3em 0; padding: 2em; border: 1px solid var(--global-border-color); border-radius: 5px; background-color: var(--global-bg-color);">
+  <h2 style="color: var(--global-text-color);"><i class="fas fa-chalkboard-teacher" style="margin-right: 0.5em; color: var(--global-theme-color);"></i>Content Coming Soon</h2>
+  <p>My teaching section is currently under development.</p>
+  <p>I'm working on adding details about courses I've taught, teaching philosophy, and educational resources.</p>
+  <p>Please check back later for updates!</p>
+</div>
+
+{% comment %}
+{% include base_path %}
+
+{% for post in site.teaching reversed %}
+  {% include archive-single.html %}
+{% endfor %}
+{% endcomment %}
