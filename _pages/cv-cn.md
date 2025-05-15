@@ -168,6 +168,9 @@ redirect_from:
         <li><strong>中文：</strong> 母语</li>
         <li><strong>英语：</strong> 雅思6.0: 听力:6.5, 阅读:6.5, 写作:5.5, 口语:6.0</li>
         <li><strong>证书：</strong> CET 467分</li>
+        <li><strong>英语：:</strong> 
+          - 雅思: 总分 6.0 (听力: 6.5, 阅读: 6.5, 写作: 5.5, 口语: 6.0)
+          - CET-6: 总分 467</li>
       </ul>
     </div>
     
@@ -429,8 +432,9 @@ redirect_from:
         <li>尝试多种特征提取技术，包括TF-IDF、词嵌入和上下文嵌入</li>
         <li>了解并比较各种分类模型，包括LSTM网络、基于transformer的方法和传统机器学习算法</li>
         <li>学习如何分析误分类推文以识别模式并改进模型性能</li>
+        <li>使用Matplotlib、Seaborn和Plotly创建可视化来理解情感趋势</li>
       </ul>
-      <p><strong>接触的技术：</strong> Python, NLTK, spaCy, HuggingFace Transformers, Scikit-learn, Pandas, Matplotlib</p>
+      <p><strong>接触的技术：</strong> Python, NLTK, spaCy, scikit-learn, Pandas, Matplotlib, Seaborn, Plotly, WordCloud</p>
       <p><strong>时间：</strong> 2023年12月</p>
     </div>
   </div>
@@ -459,8 +463,9 @@ redirect_from:
         <li>学习特征选择和工程方法，以识别心脏病的关键预测因素</li>
         <li>实现和比较多种分类算法，包括K-近邻、支持向量机、随机森林和朴素贝叶斯</li>
         <li>了解如何使用交叉验证技术优化模型参数以提高预测性能</li>
+        <li>创建可视化来理解健康因素之间的关系</li>
       </ul>
-      <p><strong>接触的技术：</strong> Python, scikit-learn, Pandas, NumPy, Matplotlib, Seaborn</p>
+      <p><strong>接触的技术：</strong> Python, TensorFlow 2.11.0, scikit-learn, Pandas, NumPy, Matplotlib, Seaborn</p>
       <p><strong>时间：</strong> 2022年5月</p>
     </div>
   </div>
