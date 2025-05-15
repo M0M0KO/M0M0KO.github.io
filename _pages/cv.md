@@ -346,7 +346,7 @@ redirect_from:
   <div class="project-entry">
     <h3><i class="fas fa-project-diagram" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>YOLOv11-LCDFS: Enhanced Smoking Detection With Low-light Enhancement</h3>
     <div class="project-details">
-      <p>Extension of smoking detection research focusing on improved object detection in challenging lighting conditions. Developing a novel YOLO-based architecture with specialized components addressing the unique challenges of low-light environments. <a href="https://github.com/username/YOLOv11-LCDFS" target="_blank"><i class="fab fa-github"></i> GitHub</a></p>
+      <p>Extension of smoking detection research focusing on improved object detection in challenging lighting conditions. Developing a novel YOLO-based architecture with specialized components addressing the unique challenges of low-light environments. <a href="https://github.com/M0M0KO/YOLOv11-LCDFS" target="_blank"><i class="fab fa-github"></i> GitHub</a></p>
       <ul>
         <li>Designing custom loss functions specifically optimized for low-light object detection scenarios</li>
         <li>Implementing attention mechanisms to focus on key visual features in varying illumination conditions</li>
@@ -362,7 +362,7 @@ redirect_from:
   <div class="project-entry">
     <h3><i class="fas fa-microscope" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>Multi-modal Medical Image Analysis for Cancer Research</h3>
     <div class="project-details">
-      <p>Developing medical image analysis systems for cancer research at Wenzhou Medical University First Affiliated Hospital. <a href="https://github.com/username/multi-modal-medical" target="_blank"><i class="fab fa-github"></i> GitHub</a></p>
+      <p>Developing medical image analysis systems for cancer research at Wenzhou Medical University First Affiliated Hospital. <a href="https://github.com/M0M0KO/multi-modal-medical" target="_blank"><i class="fab fa-github"></i> GitHub</a></p>
       <ul>
         <li>Designing medical image segmentation algorithms for hepatocellular carcinoma and renal cell carcinoma</li>
         <li>Designing methods for integrating clinical tabular data with imaging features for comprehensive analysis</li>
@@ -396,7 +396,7 @@ redirect_from:
   <div class="project-entry">
     <h3><i class="fas fa-shield-alt" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>Twitter Quality and Spam Detection System</h3>
     <div class="project-details">
-      <p>Developed an advanced machine learning system for Twitter content quality assessment and spam detection, achieving over 88% accuracy in distinguishing between legitimate tweets and spam content. <a href="https://github.com/username/twitter-spam-detection" target="_blank"><i class="fab fa-github"></i> GitHub</a></p>
+      <p>Developed an advanced machine learning system for Twitter content quality assessment and spam detection, achieving over 88% accuracy in distinguishing between legitimate tweets and spam content. <a href="https://github.com/M0M0KO/twitter-spam-detection" target="_blank"><i class="fab fa-github"></i> GitHub</a></p>
       <ul>
         <li>Implemented comprehensive data preprocessing techniques for Twitter data, including text normalization, feature extraction, and handling of missing values</li>
         <li>Engineered complex features by combining user metrics (follower count, following count) and behavioral patterns to enhance classification performance</li>
@@ -412,7 +412,7 @@ redirect_from:
   <div class="project-entry">
     <h3><i class="fas fa-home" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>Airbnb Price Analysis and Prediction System</h3>
     <div class="project-details">
-      <p>Developed a comprehensive data analysis and machine learning system to predict Airbnb listing prices in New York City based on various property features and location data. <a href="https://github.com/username/airbnb-price-prediction" target="_blank"><i class="fab fa-github"></i> GitHub</a></p>
+      <p>Developed a comprehensive data analysis and machine learning system to predict Airbnb listing prices in New York City based on various property features and location data. <a href="https://github.com/M0M0KO/airbnb-price-prediction" target="_blank"><i class="fab fa-github"></i> GitHub</a></p>
       <ul>
         <li>Performed extensive exploratory data analysis on NYC Airbnb dataset with over 48,000 listings, creating visualizations to reveal pricing patterns across neighborhoods</li>
         <li>Implemented geospatial analysis to visualize property distribution and identify high-value areas using Python GIS libraries</li>
@@ -429,7 +429,7 @@ redirect_from:
   <div class="project-entry">
     <h3><i class="fas fa-comment" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>Airline Sentiment Analysis System</h3>
     <div class="project-details">
-      <p>Developed a specialized sentiment analysis system for airline-related tweets to classify customer feedback as positive, negative, or neutral. <a href="https://github.com/username/airline-sentiment" target="_blank"><i class="fab fa-github"></i> GitHub</a></p>
+      <p>Developed a specialized sentiment analysis system for airline-related tweets to classify customer feedback as positive, negative, or neutral. <a href="https://github.com/M0M0KO/airline-sentiment" target="_blank"><i class="fab fa-github"></i> GitHub</a></p>
       <ul>
         <li>Created a comprehensive text preprocessing pipeline specifically designed for Twitter data (handling hashtags, mentions, emojis, URLs)</li>
         <li>Implemented multiple feature extraction techniques including TF-IDF, word embeddings, and contextual embeddings</li>
@@ -446,7 +446,7 @@ redirect_from:
   <div class="project-entry">
     <h3><i class="fas fa-smoking" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>Smoking Behavior Detection System</h3>
     <div class="project-details">
-      <p>Undergraduate thesis project combining YOLO object detection with MediaPipe skeletal tracking to accurately identify and classify smoking gestures in video streams. <a href="https://github.com/username/smoking-detection" target="_blank"><i class="fab fa-github"></i> GitHub</a></p>
+      <p>Undergraduate thesis project combining YOLO object detection with MediaPipe skeletal tracking to accurately identify and classify smoking gestures in video streams. <a href="https://github.com/M0M0KO/smoking-detection" target="_blank"><i class="fab fa-github"></i> GitHub</a></p>
       <ul>
         <li>Utilized YOLO object detection to identify cigarettes and related objects in video footage</li>
         <li>Implemented MediaPipe for real-time skeletal tracking and pose estimation</li>
@@ -461,7 +461,7 @@ redirect_from:
   <div class="project-entry">
     <h3><i class="fas fa-heartbeat" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>Heart Disease Prediction System</h3>
     <div class="project-details">
-      <p>Developed a comprehensive machine learning system to predict the likelihood of heart disease based on patient data and health indicators. <a href="https://github.com/username/heart-disease-prediction" target="_blank"><i class="fab fa-github"></i> GitHub</a></p>
+      <p>Developed a comprehensive machine learning system to predict the likelihood of heart disease based on patient data and health indicators. <a href="https://github.com/M0M0KO/heart-disease-prediction" target="_blank"><i class="fab fa-github"></i> GitHub</a></p>
       <ul>
         <li>Conducted exploratory data analysis on a dataset containing various health metrics and demographic information</li>
         <li>Performed feature selection and engineering to identify key predictors of heart disease</li>
