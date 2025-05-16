@@ -166,9 +166,9 @@ redirect_from:
       <h3><i class="fas fa-language" style="font-size: 1.2em; margin-right: 0.5em; color: #4285F4;"></i>Languages</h3>
       <ul>
         <li><strong>Chinese:</strong> Native speaker</li>
-        <li><strong>English:</strong> 
-          - IELTS: Overall 6.0 (Listening: 6.5, Reading: 6.5, Writing: 5.5, Speaking: 6.0)
-          - CET-6: Score 467 (College English Test - Band 6)</li>
+        <li><strong>English:</strong> </li>
+        <li>  - IELTS: Overall 6.0 (Listening: 6.5, Reading: 6.5, Writing: 5.5, Speaking: 6.0)</li>
+        <li>  - CET-6: Score 467 (College English Test - Band 6)</li>
       </ul>
     </div>
     

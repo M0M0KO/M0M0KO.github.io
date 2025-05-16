@@ -166,11 +166,9 @@ redirect_from:
       <h3><i class="fas fa-language" style="font-size: 1.2em; margin-right: 0.5em; color: #4285F4;"></i>语言</h3>
       <ul>
         <li><strong>中文：</strong> 母语</li>
-        <li><strong>英语：</strong> 雅思6.0: 听力:6.5, 阅读:6.5, 写作:5.5, 口语:6.0</li>
-        <li><strong>证书：</strong> CET 467分</li>
-        <li><strong>英语：:</strong> 
-          - 雅思: 总分 6.0 (听力: 6.5, 阅读: 6.5, 写作: 5.5, 口语: 6.0)
-          - CET-6: 总分 467</li>
+        <li><strong>英语：</strong> </li>
+        <li>  - 雅思: 总分 6.0 (听力: 6.5, 阅读: 6.5, 写作: 5.5, 口语: 6.0)</li>
+        <li> - CET-6: 总分 467</li>
       </ul>
     </div>
     
