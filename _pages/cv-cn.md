@@ -145,7 +145,7 @@ redirect_from:
     <h3><i class="fas fa-file-alt" style="font-size: 1.2em; margin-right: 0.5em; color: var(--global-text-color);"></i>YOLOv11-LCDFS: Enhanced Smoking Detection With Low-light Enhancement</h3>
     <p><strong>修订中</strong></p>
     <p><strong>作者：</strong> <strong>Jiatao Yan</strong>, Zhuzikai Zheng, Zhengtan Yang, Hao Jiang, Peichen Wang, Fangjun Kuang, Siyang Zhang</p>
-    <p class="contribution">第一作者，开发一种基于YOLO的架构，集成低光照增强功能、损失函数、注意力机制和优化的上采样技术，来提高在不同光照条件下的检测能力。</p>
+    <p class="contribution"><strong>第一作者</strong>：开发一种基于YOLO的架构，集成低光照增强功能、损失函数、注意力机制和优化的上采样技术，来提高在不同光照条件下的检测能力。</p>
   </div>
 </div>
 
