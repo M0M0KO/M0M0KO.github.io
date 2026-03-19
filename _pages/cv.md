@@ -27,13 +27,12 @@ redirect_from:
   <div class="education-entry">
     <h3><i class="fas fa-graduation-cap" style="font-size: 1.2em; margin-right: 0.5em; color: #4285F4;"></i>M.S. in Artificial Intelligence and Adaptive System</h3>
     <p><em>Sussex Artificial Intelligence Institute, Zhejiang Gongshang University</em><br>
-    Hangzhou, China | Sept 2024 - Jan 2026</p>
+    Hangzhou, China | 2024-Present</p>
     <ul>
       <li><strong>Core Courses:</strong> Intelligence in Animals and Machines, Intelligent Systems Techniques, Image Processing, Natural Language Processing, Machine Learning</li>
       <li><strong>Supervisor:</strong> Assistant Professor Peter Wijeratne (University of Sussex) and Professor Xie Mande (Zhejiang Gongshang University)</li>
-      <li><strong>Overall average mark:</strong> 79 (Distinction)</li>
-      <li><strong>Thesis:</strong> Disentangling physics, anatomical, time, and identity information in latent variables of medical images.</li>
-      <li><strong>Research Direction:</strong> Integrating physics models into a VAE framework to enhance interpretability of the latent space.</li>
+      <li><strong>Research Direction:</strong>Integrating physics models into a VAE framework, mainly to enhance the interpretability of the latent space.</li>
+      <li><strong>Expected Graduation:</strong> March 2026</li>
     </ul>
   </div>
 
@@ -220,13 +219,6 @@ redirect_from:
 
   <div class="achievement-item">
     <div class="achievement-content">
-      <h4><i class="fas fa-medal" style="font-size: 1.2em; color: #CD7F32; margin-right: 0.5em;"></i>PhysioNet - Digitization of ECG Images</h4>
-      <p><strong>Bronze Medal</strong> | <strong>Ranked 97/1424</strong> | Top 7% | Kaggle Global Competition</p>
-    </div>
-  </div>
- 
-  <div class="achievement-item">
-    <div class="achievement-content">
       <h4><i class="fas fa-wave-square" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>Yale/UNC-CH - Geophysical Waveform Inversion</h4>
       <p><strong>Ranked 255/1365</strong> | Top 19% | Kaggle Global Competition | July 1, 2025</p>
     </div>
@@ -294,54 +286,6 @@ redirect_from:
 ## Projects
 
 <div class="projects">
-  <div class="project-entry">
-    <h3><i class="fas fa-file-alt" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>DocReview: Document Review System</h3>
-    <div class="project-details">
-      <p>Document review system built with FastAPI + React/Vite + Docker Compose, integrating OnlyOffice preview and OCR/parsing services (MinerU/PaddleOCR) with offline-friendly deployment. <a href="https://github.com/M0M0KO/docreview" target="_blank"><i class="fab fa-github"></i> GitHub</a></p>
-      <p><strong>Technologies:</strong> FastAPI, React, Vite, Tailwind CSS, Docker Compose, OnlyOffice</p>
-    </div>
-  </div>
-
-  <div class="project-entry">
-    <h3><i class="fas fa-images" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>AI Images System: Multimodal PDF/Image Analysis Platform</h3>
-    <div class="project-details">
-      <p>Supports PDF parsing/extraction, image deduplication (CLIP/SIFT/DINOv2/Swin), PS detection, quality evaluation, similarity analysis, and visualization for review. <a href="https://github.com/M0M0KO/ai_images_system" target="_blank"><i class="fab fa-github"></i> GitHub</a></p>
-      <p><strong>Technologies:</strong> PyMuPDF, MinIO, Elasticsearch, CLIP, SIFT</p>
-    </div>
-  </div>
-
-  <div class="project-entry">
-    <h3><i class="fas fa-users-cog" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>Multi-Agent Document Workflow Platform (NDA)</h3>
-    <div class="project-details">
-      <p>Internship project under NDA: multi-role agent workflows for document processing, supporting orchestration, interruption recovery, RAG knowledge management, and Word parsing/QA toolchains.</p>
-      <p><strong>Technologies:</strong> FastAPI, Multi-agent workflows, RAG, MCP</p>
-    </div>
-  </div>
-
-  <div class="project-entry">
-    <h3><i class="fas fa-industry" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>Multi-Agent Operations Assistant (NDA)</h3>
-    <div class="project-details">
-      <p>Internship project under NDA: operations data simulation/generation and restricted SQL query guardrails (SQL Guard) for multi-domain analytics and safe query execution.</p>
-      <p><strong>Technologies:</strong> Python, MySQL, SQL Guard</p>
-    </div>
-  </div>
-
-  <div class="project-entry">
-    <h3><i class="fas fa-shield-alt" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>pseudo3d\_physics\_forgery: Scientific Image Forgery Segmentation</h3>
-    <div class="project-details">
-      <p>Pixel-level forgery segmentation training pipeline with dataset preparation, physics feature caching (e.g., depth/normal), and Swin-based training/evaluation/HTML reporting. <a href="https://github.com/M0M0KO/pseudo3d_physics_forgery" target="_blank"><i class="fab fa-github"></i> GitHub</a></p>
-      <p><strong>Technologies:</strong> PyTorch, Swin Transformer, Segmentation</p>
-    </div>
-  </div>
-
-  <div class="project-entry">
-    <h3><i class="fas fa-shield-alt" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>image\_forgery\_detection: Scientific Image Forgery Detection Pipeline</h3>
-    <div class="project-details">
-      <p>RECODAI-LUC scientific image forgery segmentation pipeline (PyTorch + FastAPI), including frequency-branch inputs, mixed precision/EMA, resume training, and metrics evaluation. <a href="https://github.com/M0M0KO/image_forgery_detection" target="_blank"><i class="fab fa-github"></i> GitHub</a></p>
-      <p><strong>Technologies:</strong> PyTorch, FastAPI, Segmentation</p>
-    </div>
-  </div>
-
   <div class="project-entry">
     <h3><i class="fas fa-project-diagram" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>YOLOv11-LCDFS: Enhanced Smoking Detection With Low-light Enhancement</h3>
     <div class="project-details">

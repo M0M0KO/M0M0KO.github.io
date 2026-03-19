@@ -13,12 +13,12 @@ redirect_from:
 
 ## At a Glance
 
-I am a postgraduate student with experience in medical image analysis, interested in embodied AI. My academic journey began with computer vision and object detection during my undergraduate studies, and I am fortunate to continue my studies in the field of artificial intelligence. I am now eager to explore cutting-edge technologies like embodied intelligence, multi-agent systems, and brain-computer interfaces.
+I am a postgraduate student with some initial experience in medical image analysis, interested in embodied AI. My academic journey began with computer vision and object detection during my undergraduate studies, and I am fortunate to continue my studies in the field of artificial intelligence. I am now eager to explore cutting-edge technologies like embodied intelligence, multi-agent systems, and brain-computer interfaces.
 
 <div class="highlight-box">
   <div class="highlight-item">
     <i class="fas fa-graduation-cap" style="font-size: 1.2em; color: #4285F4;"></i>
-    <p><strong>Education:</strong> M.S. in AI & Adaptive Systems (Distinction, Overall 79), B.S. in Computer Science</p>
+    <p><strong>Education:</strong> M.S. in AI & Adaptive Systems (In Progress), B.S. in Computer Science</p>
   </div>
   <div class="highlight-item">
     <i class="fas fa-flask" style="font-size: 1.2em; color: #4285F4;"></i>
@@ -26,7 +26,7 @@ I am a postgraduate student with experience in medical image analysis, intereste
   </div>
   <div class="highlight-item">
     <i class="fas fa-trophy" style="font-size: 1.2em; color: #4285F4;"></i>
-    <p><strong>Experience:</strong> Kaggle competitions (PhysioNet ECG Digitization, Geophysical Waveform Inversion, RNA 3D Folding, Flagellar Motor Localization, Podcast Listening Time, Calorie Expenditure, HuBMAP+HPA), Challenge Cup competition, National-level innovation and entrepreneurship program, 4 software copyrights, 1 patent application</p>
+    <p><strong>Experience:</strong> Kaggle competitions (RNA 3D Folding, Podcast Listening Time, Calorie Expenditure), Challenge Cup competition, National-level innovation and entrepreneurship program, 4 software copyrights, 1 patent application</p>
   </div>
 </div>
 
@@ -107,72 +107,6 @@ I am a postgraduate student with experience in medical image analysis, intereste
       <p class="tech-used">PyTorch | Deep Learning | 3D Segmentation</p>
     </div>
   </div>
-
-  <div class="project-card">
-    <div class="project-icon">
-      <i class="fas fa-file-alt" style="font-size: 1.5em; color: #4285F4;"></i>
-    </div>
-    <div class="project-details">
-      <h4>DocReview</h4>
-      <p>Document review system with OnlyOffice preview, OCR/parsing services (MinerU/PaddleOCR), and offline-friendly Docker Compose deployment</p>
-      <p class="tech-used">FastAPI | React/Vite | Docker Compose | OnlyOffice</p>
-    </div>
-  </div>
-
-  <div class="project-card">
-    <div class="project-icon">
-      <i class="fas fa-images" style="font-size: 1.5em; color: #4285F4;"></i>
-    </div>
-    <div class="project-details">
-      <h4>AI Images System</h4>
-      <p>Multimodal PDF/image analysis platform: parsing, dedupe (CLIP/SIFT/DINOv2/Swin), PS detection, quality evaluation, and visualization for review</p>
-      <p class="tech-used">MinIO | Elasticsearch | PyMuPDF | CLIP/SIFT</p>
-    </div>
-  </div>
-
-  <div class="project-card">
-    <div class="project-icon">
-      <i class="fas fa-users-cog" style="font-size: 1.5em; color: #4285F4;"></i>
-    </div>
-    <div class="project-details">
-      <h4>Multi-Agent Document Workflow Platform (NDA)</h4>
-      <p>Internship project under NDA: multi-role agent workflows for document processing with orchestration, interruption recovery, and knowledge-assisted retrieval</p>
-      <p class="tech-used">FastAPI | Multi-agent workflows | RAG | MCP</p>
-    </div>
-  </div>
-
-  <div class="project-card">
-    <div class="project-icon">
-      <i class="fas fa-industry" style="font-size: 1.5em; color: #4285F4;"></i>
-    </div>
-    <div class="project-details">
-      <h4>Multi-Agent Operations Assistant (NDA)</h4>
-      <p>Internship project under NDA: operations data simulation/generation and restricted SQL query guardrails for safe multi-domain analytics</p>
-      <p class="tech-used">Python | MySQL | SQL Guard</p>
-    </div>
-  </div>
-
-  <div class="project-card">
-    <div class="project-icon">
-      <i class="fas fa-shield-alt" style="font-size: 1.5em; color: #4285F4;"></i>
-    </div>
-    <div class="project-details">
-      <h4>pseudo3d_physics_forgery</h4>
-      <p>Pixel-level scientific image forgery segmentation training pipeline with physics feature caching (e.g., depth/normal) and Swin-based training/evaluation/reporting</p>
-      <p class="tech-used">PyTorch | Segmentation | Swin | Feature Caching</p>
-    </div>
-  </div>
-
-  <div class="project-card">
-    <div class="project-icon">
-      <i class="fas fa-shield-alt" style="font-size: 1.5em; color: #4285F4;"></i>
-    </div>
-    <div class="project-details">
-      <h4>image_forgery_detection</h4>
-      <p>RECODAI-LUC scientific image forgery segmentation training/inference/serving pipeline with frequency-branch inputs, mixed precision/EMA, resume training, and metrics evaluation</p>
-      <p class="tech-used">PyTorch | FastAPI | Frequency Branch | EMA</p>
-    </div>
-  </div>
 </div>
 
 ---
@@ -180,30 +114,6 @@ I am a postgraduate student with experience in medical image analysis, intereste
 ## Partial Competitions and Awards
 
 <div class="achievements-preview">
-  <div class="achievement-card">
-    <i class="fas fa-medal" style="font-size: 1.2em; color: #CD7F32; margin-right: 0.5em;"></i>
-    <div>
-      <h4>PhysioNet - Digitization of ECG Images</h4>
-      <p>Bronze Medal | Ranked 97th/1424 (Top 7%) | Kaggle Global Competition</p>
-    </div>
-  </div>
-
-  <div class="achievement-card">
-    <i class="fas fa-wave-square" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>
-    <div>
-      <h4>Yale/UNC-CH - Geophysical Waveform Inversion</h4>
-      <p>Ranked 255th/1365 (Top 19%) | Kaggle Global Competition</p>
-    </div>
-  </div>
-
-  <div class="achievement-card">
-    <i class="fas fa-microscope" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>
-    <div>
-      <h4>BYU - Locating Bacterial Flagellar Motors 2025</h4>
-      <p>Ranked 315th/1136 (Top 28%) | Kaggle Global Competition</p>
-    </div>
-  </div>
-
   <div class="achievement-card">
     <i class="fas fa-trophy" style="font-size: 1.2em; color: #D4AF37; margin-right: 0.5em;"></i>
     <div>
@@ -225,14 +135,6 @@ I am a postgraduate student with experience in medical image analysis, intereste
     <div>
       <h4>Predict Calorie Expenditure Competition</h4>
       <p>Ranked 178/4316 (Top 5%) | Kaggle Global Competition (May 1, 2025)</p>
-    </div>
-  </div>
-
-  <div class="achievement-card">
-    <i class="fas fa-chart-line" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>
-    <div>
-      <h4>HuBMAP + HPA - Hacking the Human Body</h4>
-      <p>Ranked 441st/1174 (Top 38%) | Kaggle Global Competition</p>
     </div>
   </div>
 
