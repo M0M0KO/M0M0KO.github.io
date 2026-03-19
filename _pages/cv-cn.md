@@ -11,7 +11,7 @@ redirect_from:
 
 <div style="text-align: center; margin-bottom: 1.5em;">
   <p style="font-size: 1.1em; color: var(--global-text-color); font-style: italic; max-width: 800px; margin: 0 auto;">
-    有计算机视觉与医学人工智能基础的研究生 | 学习具身智能
+    有计算机视觉与医学人工智能基础的研究生 | 学习具身智能与神经科学
   </p>
   
   <div class="download-button">
@@ -32,6 +32,8 @@ redirect_from:
       <li><strong>核心课程：</strong>动物与机器中的智能，智能系统技术，图像处理，自然语言处理，机器学习</li>
       <li><strong>导师：</strong>Peter Wijeratne助理教授（萨塞克斯大学）和谢满德教授（浙江工商大学）</li>
       <li><strong>研究方向：</strong>将物理模型整合到VAE框架中，提高潜在空间的可解释性。</li>
+      <li><strong>综合平均分：</strong>79</li>
+      <li><strong>毕业论文题目：</strong>Disentangling physics, anatomical, time, and identity information in latent variables of medical images（阿尔茨海默病相关的医学影像可解释表征学习）</li>
       <li><strong>预计毕业时间：</strong>2026年3月</li>
     </ul>
   </div>
@@ -85,9 +87,9 @@ redirect_from:
     <p><em>浙江大学城乡规划设计研究院有限公司</em><br>
     中国杭州 | 2025年9月 - 2025年12月</p>
     <ul>
-      <li>面向政企场景的智能文档处理与多智能体工作流项目，受保密协议约束</li>
-      <li>引入MCP工具与可插拔工具链，实现多Agent协作与可观测性</li>
-      <li>设计用户中断与断点继续机制，推动方案在生产环境稳定运行</li>
+      <li>面向文档处理/审查的多角色智能体工作流项目，受保密协议约束</li>
+      <li>交付包含 OnlyOffice 预览、OCR解析服务与 Docker Compose 部署的系统</li>
+      <li>引入MCP工具与可插拔工具链，实现多Agent协作与可观测性；支持用户中断与断点继续</li>
     </ul>
   </div>
 
@@ -157,7 +159,7 @@ redirect_from:
     <p><strong>作者：</strong>  Mouyuan Sun, Zhan Yang, Yaxian Luo, Luying Qin, Lianjie Peng, Chaoran Pan, <strong>Jiatao Yan</strong>, Tao Qiu, Yan Zhang</p>
     <p class="contribution">贡献：实现用于识别SRD5A3-AS1/hsa-let-7e-5p/RRM2重要特征的有关机器学习算法。</p>
   </div>
-  
+
 </div> -->
 
 ---
@@ -258,7 +260,7 @@ redirect_from:
   <div class="achievement-item">
     <div class="achievement-content">
       <h4><i class="fas fa-trophy" style="font-size: 1.2em; color:rgb(184, 115, 51); margin-right: 0.5em;"></i>斯坦福RNA 3D折叠竞赛</h4>
-      <p><strong>铜牌</strong> | <strong>排名 144/1516</strong> | 前10% | Kaggle全球竞赛 | 截止时间2025.5.23</p>
+      <p><strong>排名 338/1516</strong> | 前22% | Kaggle全球竞赛 | 截止时间2025.5.23</p>
     </div>
   </div>
 
