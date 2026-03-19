@@ -27,14 +27,13 @@ redirect_from:
   <div class="education-entry">
     <h3><i class="fas fa-graduation-cap" style="font-size: 1.2em; margin-right: 0.5em; color: #4285F4;"></i>人工智能与自适应系统硕士</h3>
     <p><em>萨塞克斯人工智能学院，浙江工商大学</em><br>
-    中国杭州 | 2024-至今</p>
+    中国杭州 | 2024年9月 - 2026年1月</p>
     <ul>
       <li><strong>核心课程：</strong>动物与机器中的智能，智能系统技术，图像处理，自然语言处理，机器学习</li>
-      <li><strong>导师：</strong>Peter Wijeratne助理教授（萨塞克斯大学）和谢满德教授（浙江工商大学）</li>
+      <li><strong>导师：</strong>Temitayo Olugbade助理教授（萨塞克斯大学）、Peter Wijeratne助理教授（萨塞克斯大学）和谢满德教授（浙江工商大学）</li>
       <li><strong>研究方向：</strong>将物理模型整合到VAE框架中，提高潜在空间的可解释性。</li>
       <li><strong>综合平均分：</strong>79</li>
       <li><strong>毕业论文题目：</strong>Disentangling physics, anatomical, time, and identity information in latent variables of medical images（阿尔茨海默病相关的医学影像可解释表征学习）</li>
-      <li><strong>预计毕业时间：</strong>2026年3月</li>
     </ul>
   </div>
 
@@ -129,7 +128,7 @@ redirect_from:
   </div>
 
   <div class="paper">
-    <h3><i class="fas fa-file-alt" style="font-size: 1.2em; margin-right: 0.5em; color: var(--global-text-color);"></i>Using Multiomics and Machine Learning: Insights into Improving the Outcomes of Clear Cell Renal Cell Carcinoma via the SRD5A3-AS1/hsa-let-7e-5p/RRM2 Axis</h3>
+    <h3><i class="fas fa-file-alt" style="font-size: 1.2em; margin-right: 0.5em; color: var(--global-text-color);"></i>Using Multiomics and Machine Learning: Insights into Improving the Outcomes of Clear Cell Renal Cell Carcinoma via SRD5A3-AS1/hsa-let-7e-5p/RRM2 Axis</h3>
     <p><strong>期刊：</strong> <em>ACS Omega</em> (2025年6月)</p>
     <p><strong>作者：</strong> Mouyuan Sun, Zhan Yang, Yaxian Luo, Luying Qin, Lianjie Peng, Chaoran Pan, <strong>Jiatao Yan</strong>, Tao Qiu, Yan Zhang</p>
     <p><strong>DOI：</strong> <a href="https://doi.org/10.1021/acsomega.5c01337" target="_blank">10.1021/acsomega.5c01337</a></p>
@@ -147,24 +146,9 @@ redirect_from:
   
 </div>
 
-<!-- ---
-
-## 审稿中的论文
-
-<div class="manuscripts">
-
-  <div class="paper">
-    <h3><i class="fas fa-file-alt" style="font-size: 1.2em; margin-right: 0.5em; color: var(--global-text-color);"></i>Using Multiomics and Machine Learning: Insights into Improving the Outcomes of Clear Cell Renal Cell Carcinoma via SRD5A3-AS1/hsa-let-7e-5p/RRM2 Axis</h3>
-    <p><strong>期刊：</strong> <em>ACS Omega</em> (提交时间: 2025年2月12日 - 审稿中)</p>
-    <p><strong>作者：</strong>  Mouyuan Sun, Zhan Yang, Yaxian Luo, Luying Qin, Lianjie Peng, Chaoran Pan, <strong>Jiatao Yan</strong>, Tao Qiu, Yan Zhang</p>
-    <p class="contribution">贡献：实现用于识别SRD5A3-AS1/hsa-let-7e-5p/RRM2重要特征的有关机器学习算法。</p>
-  </div>
-
-</div> -->
-
 ---
 
-## 准备中的论文
+## 投稿中的论文
 
 <div class="manuscripts">
   <div class="paper">
@@ -173,7 +157,13 @@ redirect_from:
     <p><strong>作者：</strong> <strong>Jiatao Yan</strong>, Zhuzikai Zheng, Zhengtan Yang, Hao Jiang, Peichen Wang, Fangjun Kuang, Siyang Zhang</p>
     <p class="contribution"><strong>第一作者</strong>：开发一种基于YOLO的架构，集成低光照增强功能、损失函数、注意力机制和优化的上采样技术，来提高在不同光照条件下的检测能力。</p>
   </div>
+</div>
 
+---
+
+## 准备中的论文
+
+<div class="manuscripts">
   <div class="paper">
     <h3><i class="fas fa-file-alt" style="font-size: 1.2em; margin-right: 0.5em; color: var(--global-text-color);"></i>A Spatio-Temporal Graph Transformer for Decoding Motor Imagery from fNIRS in Post-Stroke Patients</h3>
     <p><strong>准备中</strong></p>
@@ -238,6 +228,20 @@ redirect_from:
 
   <div class="achievement-item">
     <div class="achievement-content">
+      <h4><i class="fas fa-chart-line" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>ECG 图像数字化</h4>
+      <p><strong>铜牌</strong> | <strong>排名 97/1424</strong> | 前7% | Kaggle全球竞赛 | 2026.01.23</p>
+    </div>
+  </div>
+
+  <div class="achievement-item">
+    <div class="achievement-content">
+      <h4><i class="fas fa-trophy" style="font-size: 1.2em; color:rgb(184, 115, 51); margin-right: 0.5em;"></i>斯坦福RNA 3D折叠竞赛</h4>
+      <p><strong>排名 338/1516</strong> | 前22% | Kaggle全球竞赛 | 2025.09.25</p>
+    </div>
+  </div>
+
+  <div class="achievement-item">
+    <div class="achievement-content">
       <h4><i class="fas fa-wave-square" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>耶鲁/北卡罗来纳州大学教堂山分校 - 地球物理波形反演</h4>
       <p><strong>排名 255/1365</strong> | 前19% | Kaggle全球竞赛 | 2025.07.01</p>
     </div>
@@ -249,35 +253,28 @@ redirect_from:
       <p><strong>排名 315/1136</strong> | 前28% | Kaggle全球竞赛 | 2025.06.05</p>
     </div>
   </div>
-  
+
   <div class="achievement-item">
     <div class="achievement-content">
-      <h4><i class="fas fa-chart-line" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>预测卡路里消耗竞赛</h4>
-      <p><strong>排名 178/4316</strong> | 前5% | Kaggle全球竞赛 | 2025.06.01</p>
+      <h4><i class="fas fa-chart-line" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>卡路里消耗预测</h4>
+      <p><strong>排名 178/4316</strong> | 前5% | Kaggle竞赛 | 2025.06.01</p>
     </div>
   </div>
 
   <div class="achievement-item">
     <div class="achievement-content">
-      <h4><i class="fas fa-trophy" style="font-size: 1.2em; color:rgb(184, 115, 51); margin-right: 0.5em;"></i>斯坦福RNA 3D折叠竞赛</h4>
-      <p><strong>排名 338/1516</strong> | 前22% | Kaggle全球竞赛 | 截止时间2025.5.23</p>
+      <h4><i class="fas fa-chart-line" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>播客收听时间预测</h4>
+      <p><strong>排名 116/3310</strong> | 前4% | Kaggle竞赛 | 2025.05.01</p>
     </div>
   </div>
 
-  <div class="achievement-item">
-    <div class="achievement-content">
-      <h4><i class="fas fa-chart-line" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>预测播客收听时间竞赛</h4>
-      <p><strong>排名 116/3310</strong> | 前4% | Kaggle全球竞赛 | 2025.05.01</p>
-    </div>
-  </div>
-  
   <div class="achievement-item">
     <div class="achievement-content">
       <h4><i class="fas fa-chart-line" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>HuBMAP + HPA 竞赛</h4>
-      <p><strong>排名 441/1174</strong> | 前38% | Kaggle全球竞赛 | 2022年9月</p>
+      <p><strong>排名 441/1174</strong> | 前38% | Kaggle全球竞赛 | 2022.09.23</p>
     </div>
   </div>
-  
+
   <div class="achievement-item">
     <div class="achievement-content">
       <h4><i class="fas fa-medal" style="font-size: 1.2em; color: #CD7F32; margin-right: 0.5em;"></i>第18届"挑战杯"大学生竞赛</h4>
@@ -306,6 +303,90 @@ redirect_from:
 
 <div class="projects">
   <div class="project-entry">
+    <h3><i class="fas fa-user-astronaut" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>女娲平台：智能体个体开发（NDA）</h3>
+    <div class="project-details">
+      <p>参与私有化云部署智能体平台的多智能体和对应技能开发，将技能封装为标准化的工具与配置；受保密协议约束，省略平台使用方与业务细节。</p>
+      <ul>
+        <li>支持直接将项目打包放入 OpenClaw 可直接运行</li>
+        <li>设计技能输入输出约束与工具调用边界，降低多轮对话下的格式漂移与无效调用</li>
+        <li>封装通用工具适配层（API/文件/数据查询），补齐鉴权、超时、重试与异常兜底</li>
+      </ul>
+      <p><strong>使用的技术：</strong> Python, Agent工程化, 工具调用, 工作流编排, 可观测性</p>
+      <p><strong>时间：</strong> 2026年2月</p>
+    </div>
+  </div>
+
+  <div class="project-entry">
+    <h3><i class="fas fa-file-signature" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>合同审查智能体项目（NDA）</h3>
+    <div class="project-details">
+      <p>参与开发企业内部合同审查辅助模块，将合同内容解析为结构化条款，并给出风险点提示与证据引用；受保密协议约束，省略单位名称、合同类型与数据细节。</p>
+      <ul>
+        <li>实现合同解析与条款编号抽取，生成结构化输出（条款、原文位置、引用锚点），支持审查回溯</li>
+        <li>接入检索与工具调用，将审查结论与证据片段绑定（段落/页码），输出可核对的风险清单</li>
+        <li>封装审查任务接口与后台任务处理（队列/重试），支持批量处理与人工复核后再次提交</li>
+      </ul>
+      <p><strong>使用的技术：</strong> LLM应用开发, 文档解析, RAG, 工具调用, 多智能体工作流</p>
+      <p><strong>时间：</strong> 2026年1月</p>
+    </div>
+  </div>
+
+  <div class="project-entry">
+    <h3><i class="fas fa-cubes" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>3D增强的科研图像伪造检测（NDA）</h3>
+    <div class="project-details">
+      <p>参与3D增强的科研图像伪造检测探索，在像素级分割中引入伪3D以及物理启发特征，并配套特征缓存与评估流程；受保密协议约束，省略数据与业务细节。</p>
+      <ul>
+        <li>实现伪3D和物理启发特征的离线提取与缓存复用，降低训练阶段重复计算成本</li>
+        <li>完善数据准备与掩膜对齐脚本，支持批量预处理、切块训练与统一评估入口</li>
+        <li>输出推理可视化与离线评估报告，便于对比不同特征组合对定位效果的影响</li>
+      </ul>
+      <p><strong>使用的技术：</strong> PyTorch, Swin Transformer（训练）, OpenCV, 特征缓存, 分割评估与报告生成</p>
+      <p><strong>时间：</strong> 2025年12月</p>
+    </div>
+  </div>
+
+  <div class="project-entry">
+    <h3><i class="fas fa-shield-alt" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>生物医学科研图像 Copy-Move 伪造检测与分割（NDA）</h3>
+    <div class="project-details">
+      <p>参与科研图像完整性筛查模块开发，对疑似 copy-move 操作进行检测并输出像素级定位掩膜，辅助审阅与人工复核；受保密协议约束，省略项目来源与数据细节。</p>
+      <ul>
+        <li>实现高分辨率滑窗推理与掩膜拼接，输出可疑区域叠加图、掩膜与关键区域坐标</li>
+        <li>实现后处理与风险分级策略（阈值、面积占比等），便于审阅侧快速排序与筛查</li>
+        <li>提供 FastAPI 推理接口与批量脚本，支持离线跑批、结果落盘与审阅报告生成</li>
+      </ul>
+      <p><strong>使用的技术：</strong> PyTorch, timm, OpenCV, FastAPI, ONNX/ONNXRuntime（部署）, 滑窗推理与聚合, 图像取证</p>
+      <p><strong>时间：</strong> 2025年11月</p>
+    </div>
+  </div>
+
+  <div class="project-entry">
+    <h3><i class="fas fa-images" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>科研内容审查与图像检测平台（NDA）</h3>
+    <div class="project-details">
+      <p>参与开发科研 PDF 与图像审阅辅助平台，支持 PDF 解析与图文抽取、图像去重/相似检索、质量评估与报告导出；受保密协议约束，省略客户与数据来源。</p>
+      <ul>
+        <li>实现上传与解析流水线：对文档进行格式统一与逐页解析，抽取图像/文本并生成可追溯元数据（唯一ID、页码、上下文文本等）</li>
+        <li>实现“证据图筛选→多模块并行检测”：通过视觉/规则混合策略过滤非证据类图像，并行执行质量评估、图文一致性与异常痕迹检测等子任务</li>
+        <li>实现重复与篡改风险检测链路：整合特征检索、局部匹配与深度模型推理结果，输出可复核的定位证据与结构化汇总（用于前端展示/报告导出）</li>
+      </ul>
+      <p><strong>使用的技术：</strong> Python, 文档解析, 图像处理, 向量检索/相似度检索, 深度学习推理, 异步任务编排, Docker</p>
+      <p><strong>时间：</strong> 2025年10月</p>
+    </div>
+  </div>
+
+  <div class="project-entry">
+    <h3><i class="fas fa-file-alt" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>多智能体文档工作流平台（NDA）</h3>
+    <div class="project-details">
+      <p>参与开发文档处理与审阅平台，覆盖上传、预览、OCR解析、信息抽取与审阅导出等流程；受保密协议约束，省略单位名称、数据与细节。</p>
+      <ul>
+        <li>实现端到端任务编排与状态跟踪：面向长耗时文档任务提供进度上报、失败重试、单步重跑与断点恢复能力</li>
+        <li>实现文档预览与解析服务的可插拔接入：统一服务适配层（入参、返回结构、错误码与超时策略），支持按场景切换解析器</li>
+        <li>基于 LangChain 构建多角色 Agent/工作流执行框架：将关键步骤产物结构化落盘并记录可审计日志，便于复核、回溯与复现</li>
+      </ul>
+      <p><strong>使用的技术：</strong> FastAPI, React/Vite, Docker Compose, LangChain, OCR, 多智能体工作流, RAG, 可插拔工具链</p>
+      <p><strong>时间：</strong> 2025年9月</p>
+    </div>
+  </div>
+
+  <div class="project-entry">
     <h3><i class="fas fa-project-diagram" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>YOLOv11-LCDFS：结合低光照增强的吸烟检测探索</h3>
     <div class="project-details">
       <p>在本科吸烟检测研究基础上，学习如何提高在复杂光照条件下的目标检测能力。尝试探索基于YOLO架构的改进方法，学习针对低光照环境的特殊处理技术。<a href="https://github.com/M0M0KO/YOLOv11-LCDFS" target="_blank"><i class="fab fa-github"></i> GitHub</a></p>
@@ -332,7 +413,7 @@ redirect_from:
         <li>设计3D体积到2D切片的转换流程，支持不同深度学习框架的数据格式要求</li>
       </ul>
       <p><strong>使用的技术：</strong> Python, PyTorch, NiBabel, MONAI, 3D分割, Transformer架构, 多模态融合, NumPy</p>
-      <p><strong>状态：</strong> 进行中（2025年4月）</p>
+      <p><strong>时间：</strong> 2025年4月</p>
       <p><strong>相关成果：</strong> 准备中的论文（多模态医学影像分割与融合方向）</p>
     </div>
   </div>
@@ -528,65 +609,6 @@ redirect_from:
         <li>深度学习基础（山东大学）</li>
       </ul>
     </div>
-  </div>
-</div>
-
----
-
-## 专业发展与学习方向
-
-<div class="professional-development">
-  <div class="current-learning">
-    <h3><i class="fas fa-brain" style="font-size: 1.2em; margin-right: 0.5em; color: var(--global-text-color);"></i>当前学习重点</h3>
-    <p>具身智能和机器人学方向的自主学习，关注以下领域：</p>
-    <ul>
-      <li><strong>具身人工智能核心算法：</strong> 学习强化学习、模仿学习、模型预测控制和适用于机器人的扩散模型等基础知识</li>
-      <li><strong>视觉-语言-动作模型：</strong> 了解将感知、语言理解和动作生成集成用于机器人控制的基础模型</li>
-      <li><strong>机器人学习：</strong> 探索各种环境中的操作和导航技术，关注仿真到现实的迁移学习</li>
-      <li><strong>多智能体系统：</strong> 初步接触多智能体强化学习场景中的协调机制和涌现行为</li>
-      <li><strong>仿真环境：</strong> 开始学习MuJoCo、Isaac Gym或Habitat等具身人工智能研究和开发环境</li>
-    </ul>
-  </div>
-  
-  <div class="key-resources">
-    <h3><i class="fas fa-book" style="font-size: 1.2em; margin-right: 0.5em; color: var(--global-text-color);"></i>关键学习资源</h3>
-    <ul>
-      <li>
-        <strong>GitHub资源：</strong>
-        <ul>
-          <li><strong>Embodied-AI-Guide</strong> (<a href="https://github.com/tianxingchen/Embodied-AI-Guide" target="_blank">github.com/tianxingchen/Embodied-AI-Guide</a>)：具身智能研究综合指南（4.6k+星），这个仓库涵盖：
-            <ul>
-              <li>核心算法，包括强化学习、模仿学习、模型预测控制和扩散模型</li>
-              <li>用于机器人控制的视觉-语言-动作(VLA)模型</li>
-              <li>硬件平台和模拟器环境，如MuJoCo、Isaac Gym和Habitat</li>
-              <li>适用于具身智能体的计算机视觉和3D感知技术</li>
-              <li>用于操作和导航任务的机器人学习方法</li>
-            </ul>
-          </li>
-          <li><strong>Embodied-AI-Paper-List</strong> (<a href="https://github.com/Lumina-EAI/Embodied-AI-Paper-List" target="_blank">github.com/Lumina-EAI/Embodied-AI-Paper-List</a>)：按主题分类的重要研究论文精选集</li>
-          <li><strong>Awesome-Embodied-AI-Job</strong> (<a href="https://github.com/StarCycle/Awesome-Embodied-AI-Job" target="_blank">github.com/StarCycle/Awesome-Embodied-AI-Job</a>)：跟踪具身智能研究机会的资源</li>
-        </ul>
-      </li>
-      <li>
-        <strong>研究文献：</strong>
-        <ul>
-          <li>关注来自ICRA、CoRL、NeurIPS、CVPR和ICLR会议聚焦于具身人工智能的最新论文</li>
-          <li>学习机器人学习的基础模型，特别是视觉-语言-动作模型的研究</li>
-          <li>跟踪基于大语言模型的机器人规划和控制发展</li>
-          <li>探索机器人操作的仿真到现实迁移技术</li>
-        </ul>
-      </li>
-    </ul>
-  </div>
-  
-  <div class="future-directions">
-    <h3><i class="fas fa-compass" style="font-size: 1.2em; margin-right: 0.5em; color: var(--global-text-color);"></i>我感兴趣的研究问题</h3>
-    <ul>
-      <li>机器人如何通过与环境互动发展智能？</li>
-      <li>什么机制能让多个智能体自组织并发展专门角色？</li>
-      <li>人工智能系统如何自动分解复杂任务并协作使用专门工具？</li>
-      <li>物理具身在发展稳健和可泛化智能中扮演什么角色？</li>
-    </ul>
   </div>
 </div>
 
