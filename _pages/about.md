@@ -13,20 +13,20 @@ redirect_from:
 
 ## At a Glance
 
-I am a postgraduate student with some initial experience in medical image analysis, interested in embodied AI. My academic journey began with computer vision and object detection during my undergraduate studies, and I am fortunate to continue my studies in the field of artificial intelligence. I am now eager to explore cutting-edge technologies like embodied intelligence, multi-agent systems, and brain-computer interfaces.
+I am a postgraduate student with experience in medical image analysis. My academic journey began with computer vision and object detection during my undergraduate studies, and I am now expanding toward embodied intelligence and neuroscience-related topics such as brain-computer interfaces (BCI) and computational approaches to consciousness.
 
 <div class="highlight-box">
   <div class="highlight-item">
     <i class="fas fa-graduation-cap" style="font-size: 1.2em; color: #4285F4;"></i>
-    <p><strong>Education:</strong> M.S. in AI & Adaptive Systems (In Progress), B.S. in Computer Science</p>
+    <p><strong>Education:</strong> M.S. in AI & Adaptive Systems (Distinction, Overall 79), B.S. in Computer Science</p>
   </div>
   <div class="highlight-item">
     <i class="fas fa-flask" style="font-size: 1.2em; color: #4285F4;"></i>
-    <p><strong>Learning Focus:</strong> Medical AI, Computer Vision, Embodied Intelligence</p>
+    <p><strong>Learning Focus:</strong> Medical AI, Computer Vision, Embodied Intelligence, BCI (EEG/fMRI), Consciousness/DoC</p>
   </div>
   <div class="highlight-item">
     <i class="fas fa-trophy" style="font-size: 1.2em; color: #4285F4;"></i>
-    <p><strong>Experience:</strong> Kaggle competitions (RNA 3D Folding, Podcast Listening Time, Calorie Expenditure), Challenge Cup competition, National-level innovation and entrepreneurship program, 4 software copyrights, 1 patent application</p>
+    <p><strong>Experience:</strong> Kaggle competitions (Top 4% Podcast Listening Time, Top 5% Calorie Expenditure, Top 7% PhysioNet ECG Digitization (Bronze)), Challenge Cup competition, National-level Undergraduate Innovation Training Program, 4 software copyrights, 1 patent application</p>
   </div>
 </div>
 
@@ -72,41 +72,45 @@ I am a postgraduate student with some initial experience in medical image analys
 
 ---
 
-## Partial Project Experience
+ ## Partial Project Experience
+ 
+ <div class="projects-preview">
+  <div class="project-card">
+    <div class="project-icon">
+      <i class="fas fa-images" style="font-size: 1.5em; color: #4285F4;"></i>
+    </div>
+    <div class="project-details">
+      <h4>Scientific Content Integrity & Review Platform (NDA)</h4>
+      <p>Joint project under NDA: end-to-end pipeline for scientific PDF/image ingestion, content extraction, similarity/dedup checks, quality assessment, and integrity screening (incl. segmentation-based forgery cues), with review-oriented reporting</p>
+      <p class="tech-used">Python | PyMuPDF | MinIO | Elasticsearch | CV Similarity | Segmentation</p>
+    </div>
+  </div>
 
-<div class="projects-preview">
   <div class="project-card">
     <div class="project-icon">
-      <i class="fas fa-project-diagram" style="font-size: 1.5em; color: #4285F4;"></i>
+      <i class="fas fa-file-alt" style="font-size: 1.5em; color: #4285F4;"></i>
     </div>
     <div class="project-details">
-      <h4>YOLOv11-LCDFS: Enhanced Smoking Detection With Low-light Enhancement</h4>
-      <p>Worked on a YOLO-based architecture, studying specialized loss functions, attention mechanisms, upsampling techniques, and low-light enhancement for detection in challenging lighting conditions</p>
-      <p class="tech-used">PyTorch | Computer Vision | YOLO | Attention Mechanisms</p>
+      <h4>Multi-Agent Document Workflow Platform (NDA)</h4>
+      <p>Internship project under NDA: multi-role agent workflows for document processing; delivered a review system with OnlyOffice preview, OCR/parsing services, and offline-friendly Docker Compose deployment</p>
+      <p class="tech-used">FastAPI | React/Vite | Docker Compose | OnlyOffice | Multi-agent workflows | RAG | MCP</p>
     </div>
   </div>
-  
+
   <div class="project-card">
     <div class="project-icon">
-      <i class="fas fa-microscope" style="font-size: 1.5em; color: #4285F4;"></i>
+      <i class="fas fa-clinic-medical" style="font-size: 1.5em; color: #4285F4;"></i>
     </div>
     <div class="project-details">
-      <h4>Multi-modal Medical Image Analysis</h4>
-      <p>Learning about clinical tabular data integration and CT multi-modal processing to support diagnostic accuracy</p>
-      <p class="tech-used">PyTorch | Deep Learning | Multi-modal Fusion</p>
+      <h4>Multi-phase CT + Clinical Data Fusion</h4>
+      <p>Multimodal modeling with multi-phase CT imaging and structured clinical variables for diagnosis/prognosis tasks, focusing on robust feature fusion and interpretability</p>
+      <p class="tech-used">PyTorch | Medical Imaging | Multi-modal Fusion | XAI</p>
     </div>
   </div>
-  
-  <div class="project-card">
-    <div class="project-icon">
-      <i class="fas fa-microscope" style="font-size: 1.5em; color: #4285F4;"></i>
-    </div>
-    <div class="project-details">
-      <h4>3D Medical Segmentation</h4>
-      <p>Learning about medical image segmentation and 3D volumetric segmentation techniques</p>
-      <p class="tech-used">PyTorch | Deep Learning | 3D Segmentation</p>
-    </div>
-  </div>
+ </div>
+
+<div class="download-button">
+  <a href="/cv/" class="btn btn-primary"><i class="fas fa-file-alt"></i> View full CV</a>
 </div>
 
 ---
@@ -115,18 +119,10 @@ I am a postgraduate student with some initial experience in medical image analys
 
 <div class="achievements-preview">
   <div class="achievement-card">
-    <i class="fas fa-trophy" style="font-size: 1.2em; color: #D4AF37; margin-right: 0.5em;"></i>
-    <div>
-      <h4>Stanford RNA 3D Folding Competition</h4>
-      <p>Bronze Medal 143rd/1516 | Kaggle Global Competition (Deadline: May 23, 2025)</p>
-    </div>
-  </div>
-
-  <div class="achievement-card">
     <i class="fas fa-chart-line" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>
     <div>
       <h4>Predict Podcast Listening Time Competition</h4>
-      <p>Ranked 116/3310 (Top 4%) | Kaggle Global Competition (June 1, 2025)</p>
+      <p>Ranked 116th/3310 (Top 4%) | Kaggle Global Competition</p>
     </div>
   </div>
 
@@ -134,25 +130,37 @@ I am a postgraduate student with some initial experience in medical image analys
     <i class="fas fa-chart-line" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>
     <div>
       <h4>Predict Calorie Expenditure Competition</h4>
-      <p>Ranked 178/4316 (Top 5%) | Kaggle Global Competition (May 1, 2025)</p>
+      <p>Ranked 178th/4316 (Top 5%) | Kaggle Global Competition</p>
     </div>
   </div>
 
   <div class="achievement-card">
     <i class="fas fa-medal" style="font-size: 1.2em; color: #CD7F32; margin-right: 0.5em;"></i>
     <div>
-      <h4>18th Challenge Cup College Student Competition</h4>
-      <p>Bronze Medal Recipient | Zhejiang Province</p>
+      <h4>PhysioNet - Digitization of ECG Images</h4>
+      <p>Bronze Medal | Ranked 97th/1424 (Top 7%) | Kaggle Global Competition</p>
     </div>
   </div>
-  
+
+  <div class="achievement-card">
+    <i class="fas fa-medal" style="font-size: 1.2em; color: #CD7F32; margin-right: 0.5em;"></i>
+    <div>
+      <h4>Challenge Cup Competition</h4>
+      <p>Bronze Award | Zhejiang Province</p>
+    </div>
+  </div>
+
   <div class="achievement-card">
     <i class="fas fa-award" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>
     <div>
-      <h4>4th National "Chuanzhi Cup" IT Skills Competition</h4>
-      <p>Provincial Excellent Award | Zhejiang Province</p>
+      <h4>National-level Undergraduate Innovation Training Program</h4>
+      <p>National-level student research & innovation program</p>
     </div>
   </div>
+</div>
+
+<div class="download-button">
+  <a href="/cv/" class="btn btn-primary"><i class="fas fa-trophy"></i> View full achievements</a>
 </div>
 
 ---
@@ -165,90 +173,16 @@ I am a postgraduate student with some initial experience in medical image analys
     <strong>Medical AI</strong>: Learning about deep learning applications in medical image analysis, disease prediction, and multi-modal clinical data integration
   </div>
   <div>
+    <i class="fas fa-wave-square" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>
+    <strong>Neuroscience & Consciousness</strong>: Interested in consciousness identification and DoC assessment, especially multimodal fusion across EEG and fMRI for clinically meaningful evidence
+  </div>
+  <div>
     <i class="fas fa-robot" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>
-    <strong>Embodied Intelligence</strong>: Learning about physical AI systems, studying robot learning, and trying to understand sensorimotor control
+    <strong>Embodied Intelligence</strong>: Learning about sensorimotor control and how agents learn through interaction with the physical world
   </div>
   <div>
     <i class="fas fa-eye" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>
     <strong>Computer Vision</strong>: Studying attention-based object detection and image segmentation
-  </div>
-  <div>
-    <i class="fas fa-project-diagram" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>
-    <strong>Multi-modal Learning</strong>: Starting to learn about Vision-Language-Action(VLA) models in embodied AI systems
-  </div>
-  <div>
-    <i class="fas fa-users" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>
-    <strong>Multi-Agent Systems</strong>: Taking first steps in understanding collaborative AI systems
-  </div>
-</div>
-
----
-
-## Current Focus
-
-<div class="current-focus">
-  <p>As a student, I'm currently focused on building my knowledge in these areas:</p>
-  
-  <div class="focus-grid">
-    <div class="focus-item">
-      <i class="fas fa-book-open" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>
-      <div>
-        <h4>Building Foundations</h4>
-        <p>Studying core concepts in robotics, reinforcement learning, and computational perception</p>
-      </div>
-    </div>
-    
-    <div class="focus-item">
-      <i class="fas fa-laptop-code" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>
-      <div>
-        <h4>Practical Skills</h4>
-        <p>Learning to work with simulation environments and developing small projects to apply theoretical knowledge</p>
-      </div>
-    </div>
-    
-    <div class="focus-item">
-      <i class="fas fa-users" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>
-      <div>
-        <h4>Multi-Agent Learning</h4>
-        <p>Beginning to explore how multiple AI agents can interact, communicate, and solve problems collaboratively</p>
-      </div>
-    </div>
-  </div>
-</div>
-
----
-
-## Topics Curious About
-
-<div class="curious-about">
-  <div class="question-item">
-    <h4><i class="fas fa-question-circle" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>Trying to understand how robots might learn through their interactions with the physical world</h4>
-  </div>
-  
-  <div class="question-item">
-    <h4><i class="fas fa-question-circle" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>Interested in learning how multiple agents might work together and develop group behaviors</h4>
-  </div>
-  
-  <div class="question-item">
-    <h4><i class="fas fa-question-circle" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>Wondering about ways to help language models better understand and use tools</h4>
-  </div>
-</div>
-
----
-
-## Learning Aspirations
-
-<div class="future-goals">
-  <div class="goal-item">
-    <h4><i class="fas fa-lightbulb" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>Hope to learn more about embodied cognition and physical interaction in learning</h4>
-  </div>
-  
-  <div class="goal-item">
-    <h4><i class="fas fa-users" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>Interested in studying how simple rules might lead to group intelligence in multi-agent systems</h4>
-  </div>
-  
-  <div class="goal-item">
-    <h4><i class="fas fa-robot" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>Looking forward to learning about how agents might discover ways to work together and use tools</h4>
   </div>
 </div>
 
