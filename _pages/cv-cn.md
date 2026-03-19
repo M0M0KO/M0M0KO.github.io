@@ -27,12 +27,13 @@ redirect_from:
   <div class="education-entry">
     <h3><i class="fas fa-graduation-cap" style="font-size: 1.2em; margin-right: 0.5em; color: #4285F4;"></i>人工智能与自适应系统硕士</h3>
     <p><em>萨塞克斯人工智能学院，浙江工商大学</em><br>
-    中国杭州 | 2024-至今</p>
+    中国杭州 | 2024年9月 - 2026年1月</p>
     <ul>
       <li><strong>核心课程：</strong>动物与机器中的智能，智能系统技术，图像处理，自然语言处理，机器学习</li>
       <li><strong>导师：</strong>Peter Wijeratne助理教授（萨塞克斯大学）和谢满德教授（浙江工商大学）</li>
+      <li><strong>综合平均分：</strong>79（Distinction）</li>
+      <li><strong>毕业论文题目：</strong>Disentangling physics, anatomical, time, and identity information in latent variables of medical images.</li>
       <li><strong>研究方向：</strong>将物理模型整合到VAE框架中，提高潜在空间的可解释性。</li>
-      <li><strong>预计毕业时间：</strong>2026年3月</li>
     </ul>
   </div>
 
@@ -236,6 +237,13 @@ redirect_from:
 
   <div class="achievement-item">
     <div class="achievement-content">
+      <h4><i class="fas fa-medal" style="font-size: 1.2em; color: #CD7F32; margin-right: 0.5em;"></i>PhysioNet - 心电图图像数字化</h4>
+      <p><strong>铜牌</strong> | <strong>排名 97/1424</strong> | 前7% | Kaggle全球竞赛</p>
+    </div>
+  </div>
+
+  <div class="achievement-item">
+    <div class="achievement-content">
       <h4><i class="fas fa-wave-square" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>耶鲁/北卡罗来纳州大学教堂山分校 - 地球物理波形反演</h4>
       <p><strong>排名 255/1365</strong> | 前19% | Kaggle全球竞赛 | 2025.07.01</p>
     </div>
@@ -303,6 +311,54 @@ redirect_from:
 ## 项目经历
 
 <div class="projects">
+  <div class="project-entry">
+    <h3><i class="fas fa-file-alt" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>DocReview：文档审核系统</h3>
+    <div class="project-details">
+      <p>基于 FastAPI + React/Vite + Docker Compose 的文档审核系统，集成 OnlyOffice 文档预览、OCR/解析服务（MinerU/PaddleOCR），支持离线友好的多服务编排部署。<a href="https://github.com/M0M0KO/docreview" target="_blank"><i class="fab fa-github"></i> GitHub</a></p>
+      <p><strong>使用的技术：</strong> FastAPI, React, Vite, Tailwind CSS, Docker Compose, OnlyOffice</p>
+    </div>
+  </div>
+
+  <div class="project-entry">
+    <h3><i class="fas fa-images" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>AI Images System：论文/文档图像多模态分析平台</h3>
+    <div class="project-details">
+      <p>支持 PDF 解析抽取、图像重复检测（CLIP/SIFT/DINOv2/Swin 等多模型）、PS 检测、质量评估与相似度计算，并生成可视化审阅结果。<a href="https://github.com/M0M0KO/ai_images_system" target="_blank"><i class="fab fa-github"></i> GitHub</a></p>
+      <p><strong>使用的技术：</strong> PyMuPDF, MinIO, Elasticsearch, CLIP, SIFT</p>
+    </div>
+  </div>
+
+  <div class="project-entry">
+    <h3><i class="fas fa-users-cog" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>多智能体文档工作流平台（NDA）</h3>
+    <div class="project-details">
+      <p>实习期间参与（受保密协议约束）：面向政企场景的多智能体文档处理与工作流系统，支持任务编排、中断恢复、RAG 知识管理，以及文档解析/质量保证工具链。</p>
+      <p><strong>使用的技术：</strong> FastAPI, 多智能体工作流, RAG, MCP</p>
+    </div>
+  </div>
+
+  <div class="project-entry">
+    <h3><i class="fas fa-industry" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>多智能体运营助手（NDA）</h3>
+    <div class="project-details">
+      <p>实习期间参与（受保密协议约束）：面向生产/运营分析的数据仿真与生成，以及受限 SQL 查询护栏（SQL Guard），用于多域数据分析与安全查询执行。</p>
+      <p><strong>使用的技术：</strong> Python, MySQL, SQL Guard</p>
+    </div>
+  </div>
+
+  <div class="project-entry">
+    <h3><i class="fas fa-shield-alt" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>pseudo3d\_physics\_forgery：科学图像篡改检测（像素级分割）</h3>
+    <div class="project-details">
+      <p>像素级篡改分割训练流水线，包含数据集准备、physics 特征缓存（如 depth/normal 等）与 Swin 等骨干网络训练/评估/HTML 报告生成。<a href="https://github.com/M0M0KO/pseudo3d_physics_forgery" target="_blank"><i class="fab fa-github"></i> GitHub</a></p>
+      <p><strong>使用的技术：</strong> PyTorch, Swin Transformer, Segmentation</p>
+    </div>
+  </div>
+
+  <div class="project-entry">
+    <h3><i class="fas fa-shield-alt" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>image\_forgery\_detection：科学图像篡改检测训练/推理/服务</h3>
+    <div class="project-details">
+      <p>RECODAI-LUC 科学图像篡改分割管线（PyTorch + FastAPI），包含频域分支输入、混合精度/EMA、断点续训与指标评估。<a href="https://github.com/M0M0KO/image_forgery_detection" target="_blank"><i class="fab fa-github"></i> GitHub</a></p>
+      <p><strong>使用的技术：</strong> PyTorch, FastAPI, Segmentation</p>
+    </div>
+  </div>
+
   <div class="project-entry">
     <h3><i class="fas fa-project-diagram" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>YOLOv11-LCDFS：结合低光照增强的吸烟检测探索</h3>
     <div class="project-details">
